@@ -25,9 +25,9 @@ push() //Done
 
 pop()  //Done
 
-shift()
+shift() //Done
 
-unshift()
+unshift() //Done
 
 
 // 🔹 Access / Slice / Combine
