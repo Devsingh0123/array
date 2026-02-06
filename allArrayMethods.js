@@ -18,25 +18,23 @@ find()
 
 findIndex()
 
-findLast()
-
-findLastIndex()
 
 // 🔹 Add / Remove Elements
 
-push()
+push() //Done
 
-pop()
+pop()  //Done
 
 shift()
 
 unshift()
 
-splice()
 
 // 🔹 Access / Slice / Combine
 
 slice()
+
+splice()
 
 concat()
 

@@ -1,24 +1,14 @@
-// 1.reverse
-//
+// 1.shift 
 const numsArray=[1,2,302,34,4];
 const stringArray = ["this", "is", "what" , "i", "want"];
-// console.log(stringArray.reverse())
 
-// console.log(numsArray.reverse())  
-// console.log(stringArray,numsArray)// mutates the original array
-
-
-// 3.push and pop
-
-const popArray = stringArray.pop()
-const pushArray= numsArray.push(1,2,3)
-// console.log(popArray)  //gives poped item
-console.log(pushArray)  //gives array length
+const shiftArray = stringArray.shift()  //array me se first item ko delete karta hai and deleted item ko return karta hai
+// console.log(shiftArray) 
 
 
-
-
-
+// 2.unshift
+const unshiftArray =stringArray.unshift(20,34,"dev") //array ke suru me items ko add karega and array ka length return karta hai 
+console.log(unshiftArray)
 
 
 
