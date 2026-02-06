@@ -58,7 +58,7 @@ lastIndexOf()
 
 sort() //Done
 
-reverse() //
+reverse() //Done
 
 toSorted() 
 
@@ -105,3 +105,12 @@ entries()
 constructor
 
 length
+
+// ❌ Mutate original array
+
+push, pop, shift, unshift, splice, sort, reverse, fill, copyWithin
+
+
+// ✅ Return new array
+
+map, filter, slice, concat, flat, flatMap, toSorted, toReversed, toSpliced, with
