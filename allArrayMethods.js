@@ -46,11 +46,11 @@ fill()
 
 // 🔹 Search / Check
 
-includes()
+includes()//Done
 
-indexOf()
+indexOf()//Done
 
-lastIndexOf()
+lastIndexOf()//Done
 
 // 🔹 Sort / Reverse
 
@@ -58,9 +58,9 @@ sort() //Done
 
 reverse() //Done
 
-toSorted() 
+toSorted() //Done
 
-toReversed() 
+toReversed() //Done
 
 // 🔹 Convert / Output
 
