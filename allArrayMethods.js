@@ -64,11 +64,11 @@ toReversed() //Done
 
 // 🔹 Convert / Output
 
-join()
+join() //Done
 
-toString()
+toString() //Done
 
-toLocaleString()
+toLocaleString() //Done
 
 // 🔹 Flattening
 
@@ -84,19 +84,16 @@ with()
 
 // 🔹 Static Array Methods
 
-Array.isArray()
+Array.isArray() //Done
 
-Array.from()
-
-Array.of()
 
 // 🔹 Iterator Methods
 
-keys()
+keys() //Done
 
-values()
+values() //Done
 
-entries()
+entries() //Done
 
 // 🔹 Legacy / Rare (still valid)
 
