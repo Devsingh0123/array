@@ -1,5 +1,5 @@
 const numsArray=[1,0,2,302000,34,4,0];
-const stringArray = ["this","is", "what" , "i", "want"];
+const stringArray = ["this","is", "what" , "i", "want"]; 
 
 
 // let map = numsArray.map(nums=>nums*2) //ha jo bhi operation karenge uss aaadhar par wo hame 1 new array return kar ke dega
