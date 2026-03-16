@@ -31,24 +31,24 @@ const stringArray = ["this","is", "what" , "i", "want"];
 // console.log(largest(numsArray))
 
 
-let secondLargest = (arr) => {
-    let large = -Infinity;
-    let secLarge = -Infinity;
+// let secondLargest = (arr) => {
+//     let large = -Infinity;
+//     let secLarge = -Infinity;
 
-    for (let i = 0; i < arr.length; i++) {
-        if (arr[i] > large) {
-            secLarge = large;
-            large = arr[i];
-        } 
-        else if (arr[i] > secLarge && arr[i] !== large) {
-            secLarge = arr[i];
-        }
-    }
+//     for (let i = 0; i < arr.length; i++) {
+//         if (arr[i] > large) {
+//             secLarge = large;
+//             large = arr[i];
+//         } 
+//         else if (arr[i] > secLarge && arr[i] !== large) {
+//             secLarge = arr[i];
+//         }
+//     }
 
-    return secLarge;
-}
+//     return secLarge;
+// }
 
-console.log(secondLargest(numsArray));
+// console.log(secondLargest(numsArray));
 
 
 
@@ -69,3 +69,18 @@ console.log(secondLargest(numsArray));
 // }
 
 // console.log(secLargeElementInArray(numsArray));
+
+// [["name","dev"],["age",20]]
+
+
+let obj = {
+    name:"dev",
+    age:20
+}
+
+let arr=[]
+for (let key in obj){
+    arr.push([key,obj[key]])
+}
+
+console.log(arr)
