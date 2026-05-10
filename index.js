@@ -81,6 +81,7 @@ let obj = {
 let arr=[]
 for (let key in obj){
     arr.push([key,obj[key]])
+    arr.push([key,obj[key]])
 }
 
-console.log(arr)
+console.log(arr) 
