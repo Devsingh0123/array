@@ -2,6 +2,14 @@ const numsArray=[1,0,2,302000,34,4,0];
 const stringArray = ["this","is", "what" , "i", "want"]; 
 
 
+const filter = numsArray.filter((nums,idx)=>{
+
+  return nums %2 ===0
+
+})
+console.log("filter",filter)
+
+
 // let map = numsArray.map(nums=>nums*2) //ha jo bhi operation karenge uss aaadhar par wo hame 1 new array return kar ke dega
 // console.log(map) 
 
@@ -73,15 +81,15 @@ const stringArray = ["this","is", "what" , "i", "want"];
 // [["name","dev"],["age",20]]
 
 
-let obj = {
-    name:"dev",
-    age:20
-}
+// let obj = {
+//     name:"dev",
+//     age:20
+// }
 
-let arr=[]
-for (let key in obj){
-    arr.push([key,obj[key]])
-    arr.push([key,obj[key]])
-}
+// let arr=[]
+// for (let key in obj){
+//     arr.push([key,obj[key]])
+//     arr.push([key,obj[key]])
+// }
 
-console.log(arr)
+// console.log(arr)
