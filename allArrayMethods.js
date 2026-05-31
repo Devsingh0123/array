@@ -1,6 +1,6 @@
 // 🔹 Iteration / Loop Methods
 
-forEach()
+forEach() 
 
 map()
 
