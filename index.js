@@ -1,5 +1,5 @@
 const numsArray=[1,0,2,302000,34,4,0]; 
-const stringArray = ["this","is", "what" , "i", "want"]; 
+const stringArray = ["this","is", "what" , "i", "want"];
 
 
 const filter = numsArray.filter((nums,idx)=>{
